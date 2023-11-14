@@ -60,7 +60,7 @@ int main() {
   file.close();
   
   printf("Количество однобуквенных повторений: %d\nКоличество двухбуквенных повторений: %d\n",
-  counter_letter, counter_combo);
+  counter_letter - 1, counter_combo - 1);
   
   return 0;
   
